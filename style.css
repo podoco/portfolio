@@ -44,6 +44,16 @@ ul{
     list-style: none;
     padding-left: 0;
 }
+li{
+    list-style: none;
+}
+
+button{
+    background-color: transparent;
+    cursor:pointer;
+    border: none;
+    outline: none;
+}
 /* Typography */
 h1{
     font-size: var(--font-large);
@@ -103,5 +113,32 @@ p{
 
 .navbar_menu_item:hover{
     background-color: var(--color-dark-pink);
-   
+}
+/* HOME */
+
+#home{
+    background:url("imgs/home-background.png") center/cover no-repeat;
+    padding: 40px;
+    text-align: center;
+}
+
+.home_avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 20%;
+    border: 3px solid var(--color-blue);
+}
+
+.home_title,
+.home_description{
+    color:var(--color-dark-grey);
+}
+.home_contact{
+    color:var(--color-blue);
+    font-size: var(--font-regular);
+    font-weight:var(--weight-bold);
+    margin: 24px;
+    padding:8px,12px;
+    border: 2px solid var(--color-blue);
+    border-radius: 4px;
 }
