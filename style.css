@@ -120,11 +120,14 @@ p{
 
 #home{
     background:url("imgs/home-background.png") center/cover no-repeat;
-    padding: 40px;
+    background-color:var(--color-white);
     text-align: center;
+    background-size: 1280px,400px;
+    padding: 80px;
 }
 
 .home_avatar{
+    margin-top: 20px;
     width: 250px;
     height: 250px;
     border-radius: 20%;
@@ -359,6 +362,7 @@ p{
 }
 .testimonial{
     display: flex;
+    justify-content: center;
     margin: 32px 0;
 }
 .testimonial__avatar{
@@ -373,7 +377,6 @@ p{
 .testimonial__avatar:nth-child(even){
     margin-left: 40px;
 }
-
 
 
 .testimonial__speech-bubble{
