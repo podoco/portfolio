@@ -85,11 +85,18 @@ p{
 }
 /* Navbar */
 #navbar{
+    position:fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-pink);
+    background-color: transparent;
     align-items: center;
     padding: 16px;
+    transition: all var(--animation-duration) ease-in-out;
+}
+#navbar.navbar--dark{
+    background-color: var(--color-pink);
+    padding: 8px;
 }
 
 .navbar_menu{
@@ -129,11 +136,10 @@ p{
 /* HOME */
 
 #home{
-    background:url("imgs/home-background.png") center/cover no-repeat;
-    background-color:var(--color-white);
-    text-align: center;
-    background-size: 1280px,400px;
-    padding: 80px;
+    background:url("imgs/background.png") center/cover no-repeat;
+    text-align: center;   
+    padding: 40px;
+    padding-top: 120px;
 }
 
 .home_avatar{
