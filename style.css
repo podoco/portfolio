@@ -153,7 +153,7 @@ p{
 
 .home_title,
 .home_description{
-    color:var(--color-dark-grey);
+    color:var(--color-white);
 }
 .home_contact{
     color:var(--color-blue);
