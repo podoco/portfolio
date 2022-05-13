@@ -71,15 +71,20 @@ workBtnContainer.addEventListener('click',(e)=>{
     if(filter == null){
         return;
     }
+
+
     //Remove selection from the previos item and select the new one
     const active = document.querySelector('.category_btn.selected');
-    active.classList.remove('selected');
-    const target=
-        e.target.nodeName =='BUTTON' ? e.target : e.target.parentNode;
-    e.target.classList.add('selected');
 
+    if (active != null) {
+        active.classList.remove('selected');
+    }
+    e.target.classList.add('selected');
+    
 
     projectContainer.classList.add('anim-out');  
+
+
     setTimeout(() =>{
         projects.forEach((project) =>{
             console.log(project.dataset.type);
@@ -98,3 +103,7 @@ function scrollIntoView(selector){
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({behavior: "smooth"});
 }
+
+//1.모든 섹션 요소들을 가지고온다
+//2.intersectionObserver를 이용해서 섹션관찰
+//3.보여지는 섹션에 해당하는 메뉴 아이템 활성화
