@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=Cylinder&color=FF9E0F&height=100&section=header&text=portfolio)%20&fontSize=45)
+![header](https://capsule-render.vercel.app/api?type=Cylinder&color=FF9E0F&height=100&section=header&text=portfolio %20&fontSize=45)
  
  ## 🔗 배포주소
  https://podoco.github.io/portfolio/
