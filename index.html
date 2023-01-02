@@ -1,363 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mingi's portfolio</title>
-    <meta name="description" content="portfolio">
-    <meta name ="author" content="mingi">
-    <link rel="icon" type="image/png" href="imgs/favicon.PNG"/>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script 
-        src="https://kit.fontawesome.com/16cb9b9fd8.js"
-        crossorigin="anonymous"
-    ></script> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css"/>
-    
+    <meta name="description" content="portfolio" />
+    <meta name="author" content="mingi" />
+    <link rel="icon" type="image/png" href="imgs/favicon.PNG" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/16cb9b9fd8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?¬family=Open+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
     <script src="main.js" defer></script>
+  </head>
 
-</head>
-
-
-<body data-spy="scroll" data-target =".navbar">
-   
+  <body data-spy="scroll" data-target=".navbar">
     <!-- Navbar -->
     <nav id="navbar">
-        <div class="navbar_logo">
-            <i class="fab fa-diaspora"></i>
-            <a href="#">Mingi</a>
-        </div>
+      <div class="navbar_logo">
+        <i class="fab fa-diaspora"></i>
+        <a href="#">Mingi</a>
+      </div>
 
-        <ul class="navbar__menu">
-            <li class="navbar_menu_item active" data-link="#home">Home</li>
-            <li class="navbar_menu_item" data-link="#about">About</li>
-            <li class="navbar_menu_item" data-link="#skills">Skills</li>
-            <li class="navbar_menu_item" data-link="#work">My work</li>
-            <li class="navbar_menu_item" data-link="#testimonials">Testimonial</li>
-            <li class="navbar_menu_item" data-link="#contact">Contact</li>
-        </ul>
+      <ul class="navbar__menu">
+        <li class="navbar_menu_item active" data-link="#home">Home</li>
+        <li class="navbar_menu_item" data-link="#about">About</li>
+        <li class="navbar_menu_item" data-link="#skills">Skills</li>
+        <li class="navbar_menu_item" data-link="#work">My work</li>
+        <!-- <li class="navbar_menu_item" data-link="#testimonials">Testimonial</li> -->
+        <li class="navbar_menu_item" data-link="#contact">Contact</li>
+      </ul>
 
-    <!-- Toggle button -->
+      <!-- Toggle button -->
       <button class="navbar__toggle-btn">
-            <i class="fas fa-bars"></i>
+        <i class="fas fa-bars"></i>
       </button>
     </nav>
 
     <!-- Home -->
     <section id="home">
-        <div class="home__container">
-            <img 
-                src="imgs/me.jpg"
-                alt="mingi's profile photo"
-                class="home_avatar"
-            />
-            <h1 class="home_title">Hello, <br/>I'm dream coder</h1>
-            <h2 class="home_description">Software Engineer,Frontend</h2>
-            <button class="home_contact" data-link="#contact">Contact Me</button>
-        </div>
+      <div class="home__container">
+        <img
+          src="imgs/me.jpg"
+          alt="mingi's profile photo"
+          class="home_avatar"
+        />
+        <h1 class="home_title">
+          프론트엔드 개발자를 <br />지원하는 <br />전민기입니다
+        </h1>
+        <h2 class="home_description">Software Engineer,Frontend</h2>
+        <button class="home_contact" data-link="#contact">Contact Me</button>
+      </div>
     </section>
-
 
     <!-- About -->
     <section id="about" class="section section__container">
-        <hi>About me</hi>
-        <p>I am studying to become a great front-end developer.</p>
-        <div class="about_majors">
-            <div class ="major">
+      <h1>About me</h1>
+      <p>
+        그동안 팀프로젝트와 솔로 프로젝트를 해오면서 깨닫게 된것은,</br> 무엇을 할지는 엔드유저의 경험을 위주로 생각해야한다는것이었고. </br>어떻게 할지는
+        팀원간의 토의와 논리적 사고로 철저하게 대비해야 한다는것을
+        깨달았습니다. </br></br>앞으로 같이 일하게 될 팀을 위해서 빠르게 성장할 수 있는
+        개발자가 되겠습니다. </br>그리고 문제해결을 위해 깊게 고민하고
+        솔루션을 탐색할 수 있는 개발자가 되겠습니다.
+      </p>
+      <div class="about_majors">
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+          <h2 class="maior_title">HTML/CSS</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-js"></i>
+          </div>
+          <h2 class="maior_title">Javascript</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
+          <div class="major_icon">
+            <i class="fa-brands fa-react"></i>
+          </div>
+          <h2 class="maior_title">React</h2>
+          <div class="major_description"></div>
+        </div>
+        <div class="major">
             <div class="major_icon">
-                <i class="fa-brands fa-html5"></i>
+                <i class="fa-solid fa-n"></i>
             </div>
-            <h2 class="maior_title">HTML/CSS</h2>
+            <h2 class="maior_title">Next.Js</h2>
             <div class="major_description"></div>
+          </div>
+      </div>
+      <div class="about_schools">
+        <div class="about">
+            <h2>Education</h2>
+        </div>
+        <div class="school">
+               <img src="imgs/codestate.png" alt="myongji" class="school_logo" />
+           
+            <div class="school_description">
+              <p class="school_name">
+                코드스테이츠 프론트엔드 부트캠프 수료   
+              </p>
+              <p class="school_period">2022.06-2022.12</p>
             </div>
-            <div class ="major">
-                <div class="major_icon">
-                    <i class="fa-brands fa-js"></i>
-                </div>
-                <h2 class="maior_title">Javascript</h2>
-                <div class="major_description"></div>
+          </div>
+        <div class="school">
+          <img src="imgs/myongji.PNG" alt="myongji" class="school_logo" />
+          <div class="school_description">
+            <p class="school_name">
+              명지대학교 컴퓨터공학과 졸업
+            </p>
+            <p class="school_period">2015.03-2019.08</p>
+          </div>
+        </div>
+
+        <div class="about">
+            <h2>Activity</h2>
+        </div>
+        <div class="school">
+            <div class="school_description">
+              <p class="school_name">
+                2016 - 2017  &nbsp; 멋쟁이 사자처럼
+              </p>
+              <p class="school_name">
+                2015  &nbsp; 교내 학술 동아리
+              </p>
+        
             </div>
-            <div class ="major">
-                <div class="major_icon">
-                    <i class="fa-brands fa-react"></i>
-                </div>
-                <h2 class="maior_title">React</h2>
-                <div class="major_description"></div>
+          </div>
+
+          <div class="about">
+            <h2>Certificate</h2>
+        </div>
+        <div class="school">
+            <div class="school_description">
+              <p class="school_name">
+                2019  &nbsp; 정보처리기사 취득
+              </p>
             </div>
         </div>
-        <div class="about_schools">
-            <div class="school">
-                <img src="imgs/myongji.PNG" alt="myongji" class="school_logo"
-                />
-                <div class="school_description">
-                    <p class="school_name">Majored in Computer-Science at Myong-ji University</p>
-                    <p class="school_period">2015-2019</p>
-                </div>
-            </div>         
+        <div class="about">
+            <h2>Awards</h2>
         </div>
+        <div class="school">
+            <div class="school_description">
+              <p class="school_name">
+                2018  &nbsp; 한이음 ict공모전 입상
+              </p>
+              <p class="school_name">
+                2017  &nbsp; 교내 모바일 앱 개발 경진대회
+              </p>
+            </div>
+        </div>
+
+      </div>
     </section>
     <!-- Skills -->
     <section id="skills" class="section">
-        <div class="section__container">
-            <h1>Skills</h1>
-            <h2>Skills & Attributes</h2>
-            <p></p>
-            <div class="skillset">
-                <div class="skillset_left">
-                <h3 class="skillset_title">Skills</h3>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>HTML</span>
-                        <span>99%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value" style="width: 99%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>CSS</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value"style="width: 90%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>JavaScript</span>
-                        <span>90%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value" style="width: 90%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>React</span>
-                        <span>50%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value" style="width:50%;"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <div class="skill_description">
-                        <span>Vue</span>
-                        <span>50%</span>
-                    </div>
-                    <div class="skill_bar">
-                        <div class="skill_value" style="width: 50%;"></div>
-                    </div>
-                </div>
-                </div>
-
-            <div class="skillset_right">
-                <div class="tools">
-                    <h3 class="skillset_title">Tools</h3>
-                    <ul class="tools_list">
-                        <li><span>Visual Studio Code</span></li>
-                        <li><span>IntelliJ</span></li>
-                        <li><span>Android Studio Code</span></li>
-                        <li><span>illustrate</span></li>
-                    </ul>
-                </div>
-                <div class="etc">
-                    <h3 class="skillset_title">Etc</h3>
-                    <ul class="etc_list">
-                        <li><span>Git</span></li>
-                        <li><span>Scrum master</span></li>
-                        <li><span>Math</span></li>
-                    </ul>
-                </div>
+      <div class="section__container">
+        <h1>Skills</h1>
+        <h2>Skills & Attributes</h2>
+        <p></p>
+        <div class="skillset">
+          <div class="skillset_left">
+            <h3 class="skillset_title">Skills</h3>
+            <div class="skill">
+              <div class="skill_description">
+                <span>HTML&CSS</span>
+                <span>70%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 70%"></div>
+              </div>
             </div>
-
+            <div class="skill">
+              <div class="skill_description">
+                <span>JavaScript</span>
+                <span>70%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 70%"></div>
+              </div>
             </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>React</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>Next.js</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skill_description">
+                <span>TypeScript</span>
+                <span>50%</span>
+              </div>
+              <div class="skill_bar">
+                <div class="skill_value" style="width: 50%"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skillset_right">
+            <div class="tools">
+              <h3 class="skillset_title">Tools</h3>
+              <ul class="tools_list">
+                <li><span>Visual Studio Code</span></li>
+                <li><span>Git</span></li> 
+                <li><span>Figma</span></li>
+                <li><span>Android Studio</span></li>
+                <li><span>Eclipse</span></li>
+              </ul>
+            </div>
+            <div class="etc">
+              <h3 class="skillset_title">Etc</h3>
+              <ul class="etc_list">
+                <li><span>TypeScript</span></li>
+                <li><span>styledComponent</span></li>
+                <li><span>moduleCss</span></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </section> 
+      </div>
+    </section>
     <!--Work-->
     <section id="work" class="section">
-    <div class="section__container">
+      <div class="section__container">
         <h1>My work</h1>
         <h3>Projects</h3>
         <div class="work_categories">
-            <button class="category_btn selected" data-filter="*">All<span class="category__count"> 8</span></button>
-            <button class="category_btn" data-filter="front-end">Front-end<span class="category__count"> 3</span></button>
-            <button class="category_btn" data-filter="back-end">Back-end<span class="category__count"> 3</span></button>
-            <button class="category_btn" data-filter="mobile">Mobile<span class="category__count"> 2</span></button>
-        </div>
+          <button class="category_btn selected" data-filter="*">
+            All<span class="category__count"> 5</span>
+          </button>
+          <button class="category_btn" data-filter="react">
+            React<span class="category__count"> 3</span>
+          </button>
+          <button class="category_btn" data-filter="nextjs">
+            Next.js<span class="category__count"> 1</span>
+          </button>
+          <button class="category_btn" data-filter="vanilla">
+            Vanilla JS <span class="category__count"> 1</span>
+          </button>
+        
+      
 
         <div class="work__projects">
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="front-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
+          <a
+            href="https://www.notion.so/Class4989-120ffd2b58e944dab56d224dadd2961c"
+            class="project"
+            target="blank"
+            data-type="nextjs"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/class4989.png"
+              alt="projecct"
             />
             <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
+              <h3>노션 설명 바로가기</h3>
+              <span>온라인강의 웹앱 플랫폼</span>
+              <span>2022.11.08~2022.12.07</span>
+              <span>FE:3명 BE:3명</span>
+              <span>Nextjs.Typescript.modulecss.pwa.Aws</span>
             </div>
-            </a>
-        
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="front-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
-            />
-            <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
-            </div>
-            </a>
-        
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="front-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
-            />
-            <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
-            </div>
-            </a>
-      
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="back-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
-            />
-            <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
-            </div>
-            </a>
+          </a>
 
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="back-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
+          <a
+            href="https://www.notion.so/StackOverFlow-8d871cf5f33f437f999b8c02e1f25017"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/질문.png"
+              alt="projecct"
             />
             <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
+                <h3>노션 설명 바로가기</h3>
+              <span>스택오버플로우 클론 </span>
+              <span>2022.10.24~2022.11.07</span>
+              <span>FE:3명 BE:3명</span>
+              <span>React.Typescript.StyledComponent.vercel</span>
             </div>
-            </a>
+          </a>
 
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="back-end"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
+          <a
+            href="https://www.notion.so/Todo-memo-4626ac64eb834fa7a13277c1db6efff3"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/todo.png"
+              alt="projecct"
             />
             <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
+                <h3>노션 설명 바로가기</h3>
+              <span>Todomemo</span>
+              <span>2022.10.02~2022.10.18</span>
+              <span>솔로 프로젝트</span>
+              <span>React.StyledComponent.fetch</span>
             </div>
-            </a>
+          </a>
 
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="mobile"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
+          <a
+            href="https://www.notion.so/067a030e510142d8a114ba08c9baa93c"
+            class="project"
+            target="blank"
+            data-type="react"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/넷플릭스.png"
+              alt="projecct"
             />
             <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
+                <h3>노션 설명 바로가기</h3>
+              <span>넷플릭스 클론코딩 </span>
+              <span>2022.9.25~2022.10.07</span>
+              <span>솔로 프로젝트</span>
+              <span>React.StyledComponent.Axios</span>
             </div>
-            </a>
+          </a>
 
-            <a href="https://github.com/podoco" class="project" target="blank" data-type="mobile"
-            >
-            <img 
-            class="project__img"
-            src="imgs/projects/navbar.png" 
-            alt="projecct"
+          <a
+            href="https://www.notion.so/d26f2690e76f4b29abda47a6aeb9eb98"
+            class="project"
+            target="blank"
+            data-type="vanilla"
+          >
+            <img
+              class="project__img"
+              src="imgs/projects/포트폴리오.png"
+              alt="projecct"
             />
             <div class="project_description">
-                <h3>site</h3>
-                <span>Clone coding with HTML and CSS</span>
+                <h3>노션 설명 바로가기</h3>
+              <span>반응형 포트폴리오 </span>
+              <span>2022.05.04~2022.05.17</span>
+              <span>솔로 프로젝트</span>
+              <span>html,css,js</span>
             </div>
-            </a>
+          </a>
 
-            
+          
         </div>
-    </div>
+      </div>
     </section>
 
-    <!-- testimonials -->
+    <!-- testimonials
     <section id="testimonials" class="section">
-        <div class="section__container">
+      <div class="section__container">
         <h1>Testimonial</h1>
         <h3>See what they say about me</h3>
         <div class="testimonials">
-            <div class="testimonial">
-                <img src="imgs/testimonial/person2.PNG"
-                 alt="people"
-                 class="testimonial__avatar"/>
-                <div class="testimonial__speech-bubble">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                        fuga libero nulla eveniet aperiam laborum, quis provident
-                        quibusdam officiis reprehenderit, placeat neque perspiciatis vero
-                        explicabo tempora, dignissimos accusantium inventore ducimus!
-                    </p>
-                    <p class="name"><a href="">Rihana</a>/it</p>
-                </div>
+          <div class="testimonial">
+            <img
+              src="imgs/testimonial/person2.PNG"
+              alt="people"
+              class="testimonial__avatar"
+            />
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="">Rihana</a>/it</p>
             </div>
-    
-            <div class="testimonial"> 
-                <div class="testimonial__speech-bubble">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
-                        fuga libero nulla eveniet aperiam laborum, quis provident
-                        quibusdam officiis reprehenderit, placeat neque perspiciatis vero
-                        explicabo tempora, dignissimos accusantium inventore ducimus!
-                    </p>
-                    <p class="name"><a href="">Rihana</a>/it</p>
-                </div>
-                <img 
-                src="imgs/testimonial/person.PNG" 
-                alt="people"
-                class="testimonial__avatar"/>
+          </div>
+
+          <div class="testimonial">
+            <div class="testimonial__speech-bubble">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+                fuga libero nulla eveniet aperiam laborum, quis provident
+                quibusdam officiis reprehenderit, placeat neque perspiciatis
+                vero explicabo tempora, dignissimos accusantium inventore
+                ducimus!
+              </p>
+              <p class="name"><a href="">Rihana</a>/it</p>
             </div>
+            <img
+              src="imgs/testimonial/person.PNG"
+              alt="people"
+              class="testimonial__avatar"
+            />
+          </div>
         </div>
-        </div>
-    </section>
+      </div>
+    </section> -->
     <!-- contact -->
     <section id="contact" class="section">
-       <h1 class="contact__title">Let's talk</h1>
-       <h2 class="contact__email">mingi@gmail.com</h2>
-       <div class="contact__links">
-           <a href="https://github.com/podoco" translate="_blank">
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin"></i>
-           </a>
-       </div>
-       <p class="contact__rights">
-           2022 mingi - a well
-       </p>
-    </section>            
+      <h1 class="contact__title">Contact</h1>
+      <h2 class="contact__email">mingijeon83@gmail.com</h2>
+      <h2 class="contact__email">010-2790-8030</h2>
+      <div class="contact__links">
+        <a href="https://github.com/podoco" translate="_blank">
+            <i class="fa-brands fa-github"></i>
+          <!-- <i class="fa-brands fa-instagram"></i> -->
+          <!-- <i class="fa-brands fa-linkedin"></i> -->
+        </a>
+      </div>
+    </section>
     <!-- Arrow up -->
     <button class="arrow-up">
-        <i class ="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </button>
-
-</body>
-
+  </body>
 </html>
