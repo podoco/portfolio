@@ -219,22 +219,21 @@ p {
   width: 120px;
   height: 80px;
 }
+.school {
+  margin-top: 25px;
+}
 
 .about {
   margin-top: 40px;
   display: flex;
   align-items: center;
 }
-.school {
-  display: flex;
-  align-items: center;
-}
+
 .school_description {
   margin: 5px 18px;
-  text-align: left;
 }
 .school_name {
-  margin-top: 30px;
+  margin-top: 20px;
   color: var(--color-light-grey);
 }
 
@@ -249,6 +248,24 @@ p {
 
 .school_period {
   font-size: var(--font-micro);
+}
+
+.project_experience {
+  margin: auto;
+  text-align: left;
+  width: 60%;
+}
+
+.proex {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+.exbox {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  margin-top: 20px;
 }
 #skills {
   background-color: var(--color-yellow);
@@ -457,9 +474,12 @@ p {
   margin: 24px 0;
 }
 
+.h3 {
+  color: #73aace;
+}
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-yellow);
+  color: var(--color-blue);
   transition: all var(--animation-duration) ease-in;
 }
 /* Scroll */
