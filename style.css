@@ -253,7 +253,7 @@ p {
 .project_experience {
   margin: auto;
   text-align: left;
-  width: 60%;
+  width: 75%;
 }
 
 .proex {
@@ -583,5 +583,9 @@ p {
     line-height: 50px;
     right: 16px;
     bottom: 16px;
+  }
+  .proex {
+    display: flex;
+    flex-direction: column;
   }
 }
